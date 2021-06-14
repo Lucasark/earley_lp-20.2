@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "default",
+      "setup": "sudo -H pip3 install pytest && pip3 install anytree",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
